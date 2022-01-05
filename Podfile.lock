@@ -1,0 +1,36 @@
+PODS:
+  - ApplozicCore (8.3.0)
+  - ApplozicSwift (6.4.0):
+    - ApplozicSwift/Complete (= 6.4.0)
+  - ApplozicSwift/Complete (6.4.0):
+    - ApplozicCore (~> 8.3.0)
+    - ApplozicSwift/RichMessageKit
+    - Kingfisher (~> 7.0.0)
+    - SwipeCellKit (~> 2.7.1)
+  - ApplozicSwift/RichMessageKit (6.4.0)
+  - Kingfisher (7.0.0)
+  - Kommunicate (6.3.1):
+    - ApplozicSwift (~> 6.4.0)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - Kommunicate
+
+SPEC REPOS:
+  trunk:
+    - ApplozicCore
+    - ApplozicSwift
+    - Kingfisher
+    - Kommunicate
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  ApplozicCore: 120b38ee62ae0edc54a7c40e7d5a5390d7d751b2
+  ApplozicSwift: c2d53a93dadf1f477f51d86f313236c5cc626d62
+  Kingfisher: 5efc54fec3980f92354898532e562cc17f31efb4
+  Kommunicate: d92210786b7fbf5575ca9e333d73dd4ba0d4b2b6
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: a2f5da566092f71982938d87e73f46ef1d7bbd45
+
+COCOAPODS: 1.11.2

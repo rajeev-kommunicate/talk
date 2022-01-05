@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import Kommunicate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    let userId = Kommunicate.randomId()
+    
+    
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Kommunicate.setup(applicationId: "2bf085baaad3f559103cf127c1cc98c10")
         return true
     }
 
